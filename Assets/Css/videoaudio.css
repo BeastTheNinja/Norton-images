@@ -1,0 +1,23 @@
+/* #region HEADER VIDEO AND AUDIO */
+.header-video{
+    background-color: var(--color-blue);
+    color: white;
+    text-align: center;
+}
+
+/* #region VIDEO AUDIO */
+.video-audio{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem; 
+    background-color: var(--light);
+    width: 200px;
+    height: 200px;
+    border-radius: 1rem;
+    border: 1px solid var(--grey);
+    padding: 1rem;
+    margin: 1rem;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}

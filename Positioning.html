@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Positioning</title>
+    <link rel="stylesheet" href="Assets/Css/main.css">
+    <style>
+        #section-display fieldset{
+            padding: 0.5rem;
+        }
+        #section-display div{
+            background-color: var(--color-peach-transparent);
+            color: #fff;
+            padding: 1rem;
+            margin-bottom: 0.25rem;
+            text-transform: uppercase;
+        }
+        .nav-main{
+            display: flex;
+            justify-content: space-between;
+            background-color: var(--color-peach);
+        }
+        .nav-main ul{
+            display: flex;
+            list-style: none;
+            margin: 0;
+            padding: 0;
+        }
+        .nav-main a{
+            display: block;
+            font-weight: 500;
+            text-decoration: none;
+            padding: 0.5rem 1rem;
+            background-color: var(--color-peach-transparent);
+            color: var(--light);
+        }
+
+    </style>
+</head>
+<body>
+    <div class="container-main">
+        <!-- GLOBAL HEADER -->
+        <header>
+            <h1>Positioning</h1>
+            <h2><em>"Display" & "Positionering"</em></h2>
+        </header>
+        <!-- GLOBAL NAVIGATION -->
+        <nav class="nav-main">
+            <ul>
+                <li><a href="#section-display">Display</a></li>
+                <li><a href="#section-positioning">Positioning</a></li>
+                <li><a href="#section-example-one">Example One</a></li>
+                <li><a href="#section-example-two">Example Two</a></li>
+            </ul>
+            <ul>
+                <li><a href="javascript:void(0)">SignIn</a></li>
+                <li><a href="javascript:void(0)">SignUp</a></li>
+            </ul>
+        </nav>
+        <!-- GLOBAL CONTENT -->
+         <main>
+            <section id="section-display">
+                <header><h2>Display Property?</h2></header>
+                    <fieldset>
+                        <legend><h3>"Parent" - Container</h3></legend>
+                    </fieldset>
+            </section>
+            <section id="section-positioning">
+                <header><h2>Positioning Property?</h2></header>
+                    <fieldset>
+                        <legend><h3>"Parent" - Container</h3></legend>
+                    </fieldset>
+            </section>
+            <section id="section-example-one">
+                <header><h2>Example One</h2></header>
+                    <fieldset>
+                        <legend><h3>"Parent" - Container</h3></legend>
+                    </fieldset>
+            </section>
+            <section id="section-example-two">
+                <header><h2>Example Two</h2></header>
+                    <fieldset>
+                        <legend><h3>"Parent" - Container</h3></legend>
+                    </fieldset>
+            </section>
+         </main>
+         <!-- GLOBAL FOOTER -->
+          <footer>
+            <h3>global Footer</h3>
+          </footer>
+    </div>
+</body>
+</html>
