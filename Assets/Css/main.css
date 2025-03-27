@@ -1,0 +1,65 @@
+/* IMPORTS */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url(navstyle.css);
+@import url(videoaudio.css);
+/* #region GLOBAL PARAMETERS */
+html{
+    scroll-behavior: smooth;
+}
+:root{
+    --light: #f3f3f4;
+    --grey: #aaa;
+    --dark: #323233;
+    --color-blue: #00abdf;
+    --color-yellow: #cca300;
+    --color-peach: #d65b5b;
+    --color-peach-transparent: #d65b5baa;
+}
+body{
+    font-family: "Montserrat", serif;
+    font-weight: 300;
+    color: var(--dark);
+    background-color: var(--light);
+}
+h1, h2, h3{
+    font-weight: 500;
+    margin: 0 0 0.5rem 0;
+}
+img{
+    display: block;
+    width: 100%;
+}
+h3{
+    margin: 0;
+}
+/* #endregion */
+
+/* #region GLOBAL HEADER */
+.header-main{
+    color: var(--light);
+    position: relative;
+}
+.header-main h1{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: var(--light);
+}
+
+/* #endregion */
+/* #region GALLERY */
+/* GRIDS ARE FORE "WIREFRAMES" */
+.section-gallery div{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 0.5rem;
+    background-color: #ccc;
+
+}
+.section-gallery div img{
+    aspect-ratio: 16/9;
+    object-fit: cover;
+    object-position: bottom;
+}
+/* #endregion */
